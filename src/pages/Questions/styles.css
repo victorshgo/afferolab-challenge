@@ -1,0 +1,61 @@
+.questions {
+  background: url("../../assets/bg3.png");
+  background-size: cover;
+}
+
+.questions-border {
+  width: 900px;
+  height: 400px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.questions-border > .questions-content {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.questions-border > .questions-content > h2 {
+  margin-bottom: 70px;
+  font-weight: 100;
+}
+
+.questions-border > .questions-content > .alternatives > .answer  {
+  margin: 20px 10px;
+}
+
+.questions-border > .questions-content > .alternatives > .answer > button {
+  margin-right: 20px;
+  padding: 10px 15px;
+  background: #FFF;
+  border: 1px solid #68469c;
+  border-radius: 10px;
+  color: #68469c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.questions-border > .questions-content > .alternatives > .answer > button:focus {
+  color: #FFF;
+  background: #68469c;
+}
+
+.questions-border > .questions-content > .alternatives > .answer > span {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 100;
+}
+
+.questions-border > a > button {
+  margin-top: -10px;
+  padding: 10px;
+  border: 1px solid #fff;
+}

@@ -1,0 +1,21 @@
+.progress {
+  width: 100%;
+  max-width: 100px;
+  height: 13px;
+  margin: 0 auto;
+  margin-right: 0;
+  padding: 3px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.bar {
+  height: 7px;
+  margin-right: 2px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 10px;
+}

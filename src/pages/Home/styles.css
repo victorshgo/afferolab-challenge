@@ -1,0 +1,36 @@
+.home {
+  background: url("../../assets/bg1.png");
+  background-size: cover;
+}
+
+.home-introduction {
+  width: 500px;
+  padding: 250px 0 0 80px;
+}
+
+.home-introduction > h1 {
+  margin-bottom: 20px;
+  color: #75308a;
+  font-size: 40px;
+}
+
+.home-introduction > p {
+  margin-bottom: 40px;
+  color: #7c7c7e;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.home-introduction > p > span {
+  color: #cb2031;
+  font-weight: 700;
+}
+
+.home-introduction > a > button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 20.5px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
